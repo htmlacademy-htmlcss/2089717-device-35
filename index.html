@@ -3,34 +3,49 @@
 
   <head>
     <meta charset="utf-8" />
-    <title>Интернет магазин "Девайс"</title>
+    <title>"Девайс"</title>
+    <link rel="stylesheet" href="../2089717-device-35/styles/styles.css">
   </head>
+
 
   <body>
     <header class="main-header">
-      <h1>device</h1>
+      <h1 class="visually-hidden">device</h1>
+      <img class="main-logo" src="../2089717-device-35/images/main-logo-black.svg" alt="Логотип Девайса" width="145"
+        height="36">
       <nav class="main-navigation">
         <form class="navigation-search-form" action="https://echo.htmlacademy.ru/" method="get">
           <input type="search" name="search" placeholder="Поиск по сайту">
           <button class="search-form-button" type="submit">Найти</button>
         </form>
         <ul class="user-navigation">
-          <li><a class="user-navigation-item" href="#">Войти</a></li>
-          <li><a class="user-navigation-item" href="#">Сравнить</a></li>
-          <li><a class="user-navigation-item" href="#">Корзина</a></li>
+          <li><img class="user-image" src="../2089717-device-35/images/navigation/user.svg" alt="Человечек для входа"
+              width="13" height="12">
+            <a class="user-navigation-item" href="#">Войти</a>
+          </li>
+          <li><img class="compare-image" src="../2089717-device-35/images/navigation/compare.svg"
+              alt="прямоугольная диаграммка" width="10" height="12"><a class="user-navigation-item"
+              href="#">Сравнить</a>
+          </li>
+          <li> <img class="basket-image" src="../2089717-device-35/images/navigation/basket.svg" alt="Корзина"
+              width="16" height="14">
+            <a class="user-navigation-item" href="#">Корзина</a>
+          </li>
         </ul>
         <ul class="site-navigation">
           <li><button class="site-navigation-item-button">Каталог товаров</button></li>
           <li><a class="site-navigation-item" href="#">Доставка</a></li>
           <li><a class="site-navigation-item" href="#">Гарантия</a></li>
           <li><a class="site-navigation-item" href="#">Контакты</a></li>
-
         </ul>
       </nav>
+      <span class="slider-number">01</span>
     </header>
 
-    <main>
+    <main class="main-index">
       <section class="quadrocopter-description">
+        <img class="slider-1-image" src="../2089717-device-35/images/slider-1.png" alt="Квадрокоптер" width="560"
+          height="560">
         <b class="quadrocopter-description-phrase">Порхает как бабочка,<br>
           жалит как пчела!</b>
         <p>Этот обычный, на первый взгляд, квадрокоптер оснащен<br>
@@ -52,12 +67,35 @@
       <section class="device-list">
         <h2 class="visually-hidden">Категории товаров</h2>
         <ul class="device-list">
-          <li><a class="device-list-item" href="#">Виртуальная реальность</a></li>
-          <li><a class="device-list-item" href="catalog.html">Моноподы для селфи</a></li>
-          <li><a class="device-list-item" href="#">Экшн-камеры</a></li>
-          <li><a class="device-list-item" href="#">Фитнес-браслеты</a></li>
-          <li><a class="device-list-item" href="#">Умные часы</a></li>
-          <li><a class="device-list-item" href="#">Квадрокоптеры</a></li>
+          <li><a class="device-list-item" href="#"><img class="device-list-image"
+                src="../2089717-device-35/images/product-list/glasses.svg" alt="" width="96.95" height="54.99">
+              <h3>Виртуальная реальность</h3>
+            </a></li>
+          <li><a class="device-list-item" href="catalog.html">
+              <img class="device-list-image" src="../2089717-device-35/images/product-list/monopod.svg" alt=""
+                width="85.87" height="117">
+              <h3>Моноподы для селфи</h3>
+            </a></li>
+          <li><a class="device-list-item" href="#">
+              <img class="device-list-image" src="../2089717-device-35/images/product-list/cameras.svg" alt=""
+                width="71.02" height="87">
+              <h3>Экшн-камеры</h3>
+            </a></li>
+          <li><a class="device-list-item" href="#">
+              <img class="device-list-image" src="../2089717-device-35/images/product-list/fitness bracelet.svg" alt=""
+                width="107.31" height="64.99">
+              <h3>Фитнес-браслеты</h3>
+            </a></li>
+          <li><a class="device-list-item" href="#">
+              <img class="device-list-image" src="../2089717-device-35/images/product-list/watches.svg" alt=""
+                width="56.01" height="97.98">
+              <h3>Умные часы</h3>
+            </a></li>
+          <li><a class="device-list-item" href="#">
+              <img class="device-list-image" src="../2089717-device-35/images/product-list/quadrocopters.svg" alt=""
+                width="132.03" height="69.01">
+              <h3>Квадрокоптеры</h3>
+            </a></li>
         </ul>
       </section>
 
@@ -77,12 +115,18 @@
           к вашему подъезду совершенно бесплатно! Ведь<br>
           мы неплохо заработаем, поднимая его на ваш этаж.
         </p>
-        <button class="main-delivery-button">
-          Доставим редкий товар под заказ
-        </button>
-        <span class="auxiliary-information">
-          i
-        </span>
+        <img class="running man" src="../2089717-device-35/images/running man.svg" alt="Бегущий курьер с посылкой"
+          width="136" height="164">
+        <div class="main-delivery-button-section">
+          <img class="delivery-track" src="../2089717-device-35/images/delivery-track.svg" alt="Грузовичок" width="47"
+            height="31.1">
+          <button class="main-delivery-button">
+            Доставим редкий товар под заказ
+          </button>
+          <span class="auxiliary-information">
+            i
+          </span>
+        </div>
       </section>
 
       <section class="producer-information">
@@ -125,15 +169,18 @@
         <p>Еженедельный дайджест с обзорами новинок,<br>
           длительными тест-драйвами, распаковками, а также акции, <br>
           спецпредложения и вот это вот всё.</p>
-          <form class="newsletter-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input type="email" name="email" placeholder="Ваш e-mail">
-            <button class="newsletter-subscribe-form-button" type="submit">Подписаться</button>
-          </form>
-          <span>Это бесплатно</span>
+        <form class="newsletter-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+          <input type="email" name="email" placeholder="Ваш e-mail">
+          <button class="newsletter-subscribe-form-button" type="submit">Подписаться</button>
+        </form>
+        <img class="check-mark" src="../2089717-device-35/images/check-mark.svg" alt="галочка" width="14" height="14">
+        <span>Это бесплатно</span>
       </section>
     </main>
     <footer>
-      <h1>device</h1>
+      <h1 class="visually-hidden">device</h1>
+      <img class="main-logo-yellow" src="../2089717-device-35/images/main-logo-yellow.svg" alt="Логотип Девайса"
+        width="145" height="36">
       <p>Санкт-Петербург, набережная<br>
         реки Карповки, 5, литера П.</p>
       <ul class="delivery-service-list">
@@ -143,11 +190,24 @@
       </ul>
       <p>Тел.: +7 (812) 812-12-12</p>
       <ul class="social-network-list">
-        <li><a class="social-network-item" href="https://t.me/htmlacademy">Telegram</a></li>
-        <li><a class="social-network-item" href="https://www.youtube.com/user/htmlacademyru">Youtube</a></li>
-        <li><a class="social-network-item" href="https://twitter.com/htmlacademy_ru">Twitter</a></li>
+        <li><a class="social-network-item" href="https://t.me/htmlacademy">
+            <img class="social-network-image" src="../2089717-device-35/images/social-networks/telegram.svg"
+              alt="Ссылка на наш телеграм" width="13.34" height="11.19">
+            <h3 class="visually-hidden">Telegram</h3>
+          </a></li>
+        <li><a class="social-network-item" href="https://www.youtube.com/user/htmlacademyru">
+            <img class="social-network-image" src="../2089717-device-35/images/social-networks/youtube.svg"
+              alt="Ссылка на наш ютуб" width="16" height="10.67">
+            <h3 class="visually-hidden">Youtube</h3>
+          </a></li>
+        <li><a class="social-network-item" href="https://twitter.com/htmlacademy_ru">
+            <img class="social-network-image" src="../2089717-device-35/images/social-networks/twitter.svg"
+              alt="Ссылка на наш твиттер" width="15" height="14.06">
+            <h3 class="visually-hidden">Twitter</h3>
+          </a></li>
       </ul>
-      <a class="site-developer" href="https://htmlacademy.ru/">.html <br>academy</a>
+      <a class="site-developer" href="https://htmlacademy.ru/"><img class="htmlacademy-logo"
+          src="../2089717-device-35/images/htmlacademy.svg" alt="Логотип htmlacademy" width="114.9" height="32.9"></a>
     </footer>
   </body>
 

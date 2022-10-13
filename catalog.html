@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="../2089717-device-35/styles/styles.css">
   </head>
 
   <body>
     <header class="main-header">
-      <h1>device</h1>
+      <h1 class="visually-hidden">device</h1>
+      <img class="main-logo" src="../2089717-device-35/images/main-logo-black.svg" alt="Логотип Девайса" width="145"
+        height="36">
       <nav class="main-navigation">
         <form class="navigation-search-form" action="https://echo.htmlacademy.ru/" method="get">
           <input type="search" name="search" placeholder="Поиск по сайту">
           <button class="search-form-button" type="submit">Найти</button>
         </form>
         <ul class="user-navigation">
-          <li><a class="user-navigation-item" href="#">Войти</a></li>
-          <li><a class="user-navigation-item" href="#">Сравнить</a></li>
-          <li><a class="user-navigation-item" href="#">Корзина</a></li>
+          <li><img class="user-image" src="../2089717-device-35/images/navigation/user.svg" alt="Человечек для входа"
+              width="13" height="12">
+            <a class="user-navigation-item" href="#">Войти</a>
+          </li>
+          <li><img class="compare-image" src="../2089717-device-35/images/navigation/compare.svg"
+              alt="прямоугольная диаграммка" width="10" height="12"><a class="user-navigation-item"
+              href="#">Сравнить</a>
+          </li>
+          <li> <img class="basket-image" src="../2089717-device-35/images/navigation/basket.svg" alt="Корзина"
+              width="16" height="14">
+            <a class="user-navigation-item" href="#">Корзина</a>
+          </li>
         </ul>
         <ul class="site-navigation">
           <li><button class="site-navigation-item-button">Каталог товаров</button></li>
@@ -97,75 +110,83 @@
           <button class="filter-activation-button" type="submit">Показать</button>
         </form>
         <div class="sorting">
-        <h2>Сортировка:</h2>
-        <select class="select-control">
-          <option value="popular">Популярные</option>
-          <option value="cheap">Дешёвые</option>
-          <option value="expensive">Дорогие</option>
-        </select>
+          <h2>Сортировка:</h2>
+          <select class="select-control">
+            <option value="popular">Популярные</option>
+            <option value="cheap">Дешёвые</option>
+            <option value="expensive">Дорогие</option>
+          </select>
+          <img class="arrow" src="../2089717-device-35/images/arrow.svg" alt="стрелочка вниз" width="9.03"
+            height="6.05">
           <button class="slider-button">Листать вверх</button>
-      <button class="slider-button">Листать вниз</button>
+          <button class="slider-button">Листать вниз</button>
         </div>
-      <ul class="product-list">
-        <li class="product-item">
-          <a class="product-item-link" href="product.html">
-            <img class="product-item-image" src="" alt="">
-            <h3>Любительская
-              селфи-палка</h3>
-          </a>
-          <span class="product-item-price">500 р</span>
-        </li>
-        <li class="product-item">
-          <a class="product-item-link" href="product.html">
-            <img class="product-item-image" src="" alt="">
-            <h3>Профессиональная селфи-палка </h3>
-          </a>
-          <span class="product-item-price">1500 р</span>
-        </li>
-        <li class="product-item">
-          <a class="product-item-link" href="product.html">
-            <img class="product-item-image" src="" alt="">
-            <h3>Непотопляемая
-              селфи-палка</h3>
-          </a>
-          <span class="product-item-price">2500 р</span>
-        </li>
-        <li class="product-item">
-          <a class="product-item-link" href="product.html">
-            <img class="product-item-image" src="" alt="">
-            <h3>Селфи-палка «Следуй за мной»</h3>
-          </a>
-          <span class="product-item-price">1500 р</span>
-        </li>
-      </ul>
-      <button class="button pagination-download-more" type="button">Загрузить ещё</button>
-      <ul class="pagination">
-        <li class="pagination-item">
-          <a class="pagination-link pagination-back pagination-disabled">Назад</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link pagination-current">1</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">2</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">3</a>
-        </li>
-        <li class="pagination-item">
-          <span class="pagination-continuation">...</span>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">15</a>
-        </li>
-        <li class="pagination-item">
-          <a class="pagination-link pagination-next" href="#">Вперёд</a>
-        </li>
-      </ul>
+        <ul class="product-list">
+          <li class="product-item">
+            <a class="product-item-link" href="product.html">
+              <img class="product-item-image" src="../2089717-device-35/images/products/product-1.jpg" alt="Любительская
+            селфи-палка" width="360" height="380">
+              <h3>Любительская
+                селфи-палка</h3>
+            </a>
+            <span class="product-item-price">500 р</span>
+          </li>
+          <li class="product-item">
+            <a class="product-item-link" href="product.html">
+              <img class="product-item-image" src="../2089717-device-35/images/products/product-2.jpg"
+                alt="Профессиональная селфи-палка" width="360" height="380">
+              <h3>Профессиональная селфи-палка </h3>
+            </a>
+            <span class="product-item-price">1500 р</span>
+          </li>
+          <li class="product-item">
+            <a class="product-item-link" href="product.html">
+              <img class="product-item-image" src="../2089717-device-35/images/products/product-3.jpg"alt="Непотопляемая
+            селфи-палка" width="360" height="380">
+              <h3>Непотопляемая
+                селфи-палка</h3>
+            </a>
+            <span class="product-item-price">2500 р</span>
+          </li>
+          <li class="product-item">
+            <a class="product-item-link" href="product.html">
+              <img class="product-item-image" src="../2089717-device-35/images/products/product-4.jpg"
+                alt="Селфи-палка «Следуй за мной»(рука)" width="360" height="380">
+              <h3>Селфи-палка «Следуй за мной»</h3>
+            </a>
+            <span class="product-item-price">1500 р</span>
+          </li>
+        </ul>
+        <button class="button pagination-download-more" type="button">Загрузить ещё</button>
+        <ul class="pagination">
+          <li class="pagination-item">
+            <a class="pagination-link pagination-back pagination-disabled">Назад</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link pagination-current">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <span class="pagination-continuation">...</span>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">15</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link pagination-next" href="#">Вперёд</a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
-      <h1>device</h1>
+      <h1 class="visually-hidden">device</h1>
+      <img class="main-logo-yellow" src="../2089717-device-35/images/main-logo-yellow.svg" alt="Логотип Девайса"
+        width="145" height="36">
       <p>Санкт-Петербург, набережная<br>
         реки Карповки, 5, литера П.</p>
       <ul class="delivery-service-list">
@@ -175,11 +196,25 @@
       </ul>
       <p>Тел.: +7 (812) 812-12-12</p>
       <ul class="social-network-list">
-        <li><a class="social-network-item" href="https://t.me/htmlacademy">Telegram</a></li>
-        <li><a class="social-network-item" href="https://www.youtube.com/user/htmlacademyru">Youtube</a></li>
-        <li><a class="social-network-item" href="https://twitter.com/htmlacademy_ru">Twitter</a></li>
+        <li><a class="social-network-item" href="https://t.me/htmlacademy">
+            <img class="social-network-image" src="../2089717-device-35/images/social-networks/telegram.svg"
+              alt="Ссылка на наш телеграм" width="13.34" height="11.19">
+            <h3 class="visually-hidden">Telegram</h3>
+          </a></li>
+        <li><a class="social-network-item" href="https://www.youtube.com/user/htmlacademyru">
+            <img class="social-network-image" src="../2089717-device-35/images/social-networks/youtube.svg"
+              alt="Ссылка на наш ютуб" width="16" height="10.67">
+            <h3 class="visually-hidden">Youtube</h3>
+          </a></li>
+        <li><a class="social-network-item" href="https://twitter.com/htmlacademy_ru">
+            <img class="social-network-image" src="../2089717-device-35/images/social-networks/twitter.svg"
+              alt="Ссылка на наш твиттер" width="15" height="14.06">
+            <h3 class="visually-hidden">Twitter</h3>
+          </a></li>
       </ul>
-      <a class="site-developer" href="https://htmlacademy.ru/">.html <br>academy</a>
+      <a class="site-developer" href="https://htmlacademy.ru/"><img class="htmlacademy-logo"
+          src="../2089717-device-35/images/htmlacademy.svg" alt="Логотип htmlacademy" width="114.9" height="32.9"></a>
     </footer>
   </body>
+
 </html>
