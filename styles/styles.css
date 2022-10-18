@@ -1,0 +1,378 @@
+@font-face {
+font-family:"raleway";
+font-style: normal;
+font-weight: 800;
+src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+font-display: swap;
+}
+
+@font-face {
+  font-family:"rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+  }
+
+  @font-face {
+    font-family:"rubik";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+    font-display: swap;
+    }
+
+  body {
+    font-family: "rubik", "sans-serif";
+    font-size: 18px;
+    line-height: 30px;
+    color: #444444;
+    background-color:#FFFFFF;
+    text-align: left;
+  }
+  .main-header {
+    color:#000000;
+    background-color: #FFE17F;
+  }
+ul {
+list-style: none;
+}
+.user-navigation-item {
+  font-family: "rubik", "sans-serif";
+  color: inherit;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+}
+.site-navigation-item {
+  font-family: "raleway","sans-serif";
+  color: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.main-index {
+background-color: #FFFFFF;
+background-size: auto;
+}
+.quadrocopter-description-phrase{
+  font-family: "raleway","sans-serif";
+  color: #000000;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 800;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+}
+.quadrocopter-detaild-description,
+.delivery-service-item,
+.detail-information-about-company,
+.contact-link {
+  font-family: "raleway","sans-serif";
+  color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+<!--Будет активно после сеток -- >
+/*.slider-number {
+  font-family: "rubik","sans-serif";
+  color: #FFFFFF;
+  font-size: 180px;
+  line-height: 30px;
+  font-weight: 700;
+  font-style: bold;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+}*/
+
+.quadrocopter-advantage-item-metres{
+  font-family: "rubik","sans-serif";
+  color: #000000;
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+}
+.quadrocopter-advantage-item-description{
+  font-family: "rubik","sans-serif";
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+}
+.device-list-item {
+  font-family: "raleway","sans-serif";
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  text-align: left;
+  text-decoration: none;
+}
+.delivery-service-list-header {
+  font-family: "raleway","sans-serif";
+  color: #FFE17F;
+  background-color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "raleway","sans-serif";
+  color: #000000;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 800;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+}
+.delivery-information,
+.main-delivery-button{
+  background-color: #F0F0F0;
+}
+.delivery-track {
+  background-color: #FFE17F;
+}
+.available-delivery-company-item {
+  font-family: "rubik","sans-serif";
+  color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  list-style-type: disc;
+}
+li::marker {
+  color: #FFC700;
+}
+.contact-header {
+  font-family: "rubik","sans-serif";
+  color: #444444;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
+  list-style-type: disc;
+}
+.newsletter {
+  background-color: #F0F0F0;
+}
+.newsletter-subscribe-form-button {
+  background-color: #F0F0F0;
+  font-family: "raleway","sans-serif";
+  border:none;
+  color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.visually-hidden {
+  visibility: hidden;
+}
+footer {
+  background-color: #444444;
+  color: white;
+}
+.social-network-item {
+  background-color:rgba(255, 255, 255, 0.3);
+}
+.adress {
+  font-family: "rubik","sans-serif";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+.telephone-number {
+  font-family: "rubik","sans-serif";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: none;
+}
+.delivery-service-footer-item {
+  font-family: "raleway","sans-serif";
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.device-list-image {
+  background-color: #FFE17F;
+  background-size: 160px 160px;
+}
+
+.main-inner {
+  background-color: #F0F0F0;
+  color: #000000;
+}
+.inner-header {
+  background-color: #FFFFFF;
+}
+.breadcrumbs-item {
+  font-family: "rubik","sans-serif";
+  color: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+}
+.breadcrumbs-item-button {
+  font-family: "rubik","sans-serif";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  border:none;
+  background-color: #FFFFFF;
+}
+.catalog-filter-group {
+  border: none;
+}
+.filter-header,
+.sorting-header {
+  font-family: "raleway","sans-serif";
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 800;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.catalog-filter-title,
+.product-item-link {
+  font-family: "rubik","sans-serif";
+  color: inherit;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+}
+.catalog-filter-item {
+  font-family: "rubik","sans-serif";
+  color: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+.filter-activation-button {
+  font-family: "raleway","sans-serif";
+  color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  background-color: #F0F0F0;
+}
+.select-control {
+  font-family: "rubik","sans-serif";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  border: none;
+  background-color: #F0F0F0;
+}
+.product-list-container {
+  background-color: #FFFFFF;
+}
+.product-list-title {
+
+}
+.product-item-price {
+  font-family: "rubik","sans-serif";
+  color: #444444;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: right;
+}
+.pagination-download-more {
+  font-family: "raleway","sans-serif";
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  background-color: #FFFFFF;
+}
+.pagination {
+  background-color: #EBEBEB;
+}
+.pagination-disabled {
+  font-family: "raleway","sans-serif";
+  color: #444444;
+  opacity: 30%;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+.pagination-current-link {
+  font-family: "rubik","sans-serif";
+  color: #444444;
+  opacity: 60%;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+}
+.pagination-link {
+  font-family: "rubik","sans-serif";
+  color: #444444;
+  opacity: 30%;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration:none;
+}
+.pagination-next {
+  font-family: "raleway","sans-serif";
+  color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
