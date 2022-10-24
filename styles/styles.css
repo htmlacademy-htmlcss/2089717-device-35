@@ -25,7 +25,6 @@ font-display: swap;
     height: 100vh;
     }
   body {
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,9 +35,11 @@ font-display: swap;
     color: #444444;
     background-color:#FFFFFF;
     text-align: left;
+    margin: 0 auto;
   }
-  footer {
-    margin-top: auto;
+  .main-navigation {
+    display: flex;
+    margin:0 auto;
   }
   .main-container {
     flex-grow: 1;
@@ -46,9 +47,43 @@ font-display: swap;
   .main-header {
     color:#000000;
     background-color: #FFE17F;
+    width: 1160px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
   }
 ul {
 list-style: none;
+}
+.main-navigation {
+  display: flex;
+  margin:0 auto;
+}
+.user-navigation {
+  width: 450px;
+  margin: auto;
+  padding: 0;
+}
+.navigation-search-form {
+  width: 517px;
+  height: 40px;
+  margin: auto;
+  padding: 0;
+}
+.main-logo {
+  margin-left:60px;
+}
+.site-navigation-item-button {
+  width: 236px;
+  height: 20px;
+  margin: auto;
+  padding: 0;
+}
+.site-navigation {
+  width: 471px;
+  height: 21px;
+  margin: auto;
+  padding: 0;
 }
 .user-navigation-item {
   font-family: "rubik", "sans-serif";
@@ -72,6 +107,10 @@ list-style: none;
 background-color: #FFFFFF;
 background-size: auto;
 }
+.page-container {
+  width: 1440px;
+  margin: 0 auto;
+}
 .quadrocopter-description-phrase{
   font-family: "raleway","sans-serif";
   color: #000000;
@@ -81,6 +120,19 @@ background-size: auto;
   text-align: left;
   text-decoration: none;
   text-transform: none;
+}
+.quadrocopter-description-container {
+  width: 560px;
+  height: 401px;
+  margin-left: 740px;
+}
+.slider-1-image {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.quadrocopter-slider-group {
+ display:flex;
 }
 .quadrocopter-detaild-description,
 .delivery-service-item,
@@ -388,4 +440,8 @@ footer {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+}
+.device-list {
+  display: flex;
+  justify-content: flex-start;
 }
