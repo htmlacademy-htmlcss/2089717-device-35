@@ -535,7 +535,6 @@ footer {
 }
 
 .main-inner {
-  background-color: #F0F0F0;
   color: #000000;
   max-width: 1440px;
   margin: 0 auto;
@@ -716,10 +715,68 @@ footer {
   width: 1440px;
   margin: 0 auto;
 }
+.main-content-container {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+}
 .catalog-container {
-
+  width: 100%;
+  margin: 0 auto;
 }
 .filter-container {
-  margin-left: 200px;
+  margin-left: 60px;
   width: 220px;
+}
+.sorting {
+  display: flex;
+  width: 840px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+}
+.product-list {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 70px;
+
+}
+.product-list-container {
+  margin-left: 60px;
+  height: 1310px;
+}
+.pagination-container {
+  background-color: #EBEBEB;
+  margin: 0 auto;
+  padding: 25px;
+  width: 720px;
+  height: 21px;
+  margin-top: 44px;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+}
+.pagination-download-more {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.pagination-download-more-container {
+  border: 4px solid #F0F0F0;
+  width: 760px;
+  height: 18px;
+  margin: 0 auto;
+  margin-top: 44px;
+  padding:18px 0;
+  align-items: center;
+}
+.pagination-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.pagination-item-pagination-numbers {
+  margin-right: 30px;
 }
