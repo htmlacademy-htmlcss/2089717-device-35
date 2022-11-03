@@ -39,7 +39,7 @@ font-display: swap;
   }
   .main-navigation {
     display: flex;
-
+    justify-content: space-between;
   }
   .main-container {
     flex-grow: 1;
@@ -51,34 +51,99 @@ font-display: swap;
     height: 300px;
     margin: 0 auto;
     margin-top: 40px;
+    position: relative;
   }
+  .main-catalog-header {
+    color:#000000;
+    background-color: #FFE17F;
+    width: 1160px;
+    height: 186px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+  }
+
 ul {
 list-style: none;
 margin: 0;
 padding: 0;
 }
+.navigation-top {
+  display: flex;
+  width: 1040px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  align-items: center;
+
+}
+.navigation-bottom {
+  display: flex;
+  width: 1040px;
+  height: 40px;
+  margin: 0 auto;
+  align-items: center;
+
+}
+.navigation-search-form {
+  width: 517px;
+  height: 40px;
+}
+.user-image {
+  margin-left: 27px;
+}
+.user-navigation-item-entare {
+  margin-left: 13px;
+}
+.compare-image {
+  margin-left: 168px
+}
+.user-navigation-item-compare {
+  margin-left: 12px ;
+}
+.basket-image {
+  margin-left: 33px;
+}
+.user-navigation-item-basket {
+  margin-left:12px;
+}
 .main-navigation {
 
 }
 .user-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation {
+  display: flex;
+  margin-left: auto;
 
 }
-.navigation-search-form {
 
+.site-navigation-item-not-last {
+  margin-right: 49px;
 }
 .main-logo {
   margin-left:60px;
   position: absolute;
-  top:20px;
+  top:-20px;
 }
 .site-navigation-item-button {
-  width: 236px;
   height: 20px;
-  margin: auto;
-  padding: 0;
-}
-.site-navigation {
-
+  font-family: "raleway","sans-serif";
+  color: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0px;
+  background-color: #FFE17F;
+  width: auto;
+  padding: 0px;
 }
 .user-navigation-item {
   font-family: "rubik", "sans-serif";
@@ -153,8 +218,8 @@ background-size: auto;
   text-decoration: none;
   text-transform: uppercase;
 }
-<!--Будет активно после сеток -- >
-/*.slider-number {
+
+.slider-number {
   font-family: "rubik","sans-serif";
   color: #FFFFFF;
   font-size: 180px;
@@ -164,7 +229,12 @@ background-size: auto;
   text-align: right;
   text-decoration: none;
   text-transform: uppercase;
-}*/
+  width: 250px;
+  height: 135px;
+  margin-left: 861px;
+  position: absolute;
+  bottom:-70px;
+}
 
 .quadrocopter-advantage-item-metres{
   font-family: "rubik","sans-serif";
@@ -323,7 +393,13 @@ background-size: auto;
   width: 1160px;
   height: 40px;
   margin:0 auto;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.yellow-rectangle {
+  width: 80px;
+  height: 7px;
+  background-color: #FFC700;
 }
 .delivery-service-footer-list {
   display: flex;
@@ -332,12 +408,11 @@ background-size: auto;
  .delivery-service-footer-item:not(last-child){
   margin-right: 35px;
 }
-.site-developer {
 
-}
 .social-network-list-container {
-
+margin-left: 95px;
 }
+
 .social-network-list {
   display: flex;
   justify-content: space-between;
@@ -419,7 +494,12 @@ footer {
   color: white;
 }
 .social-network-item {
-  background-color:rgba(255, 255, 255, 0.3);
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  background-color: #FFFFFF;
+  opacity: 30%;
+  border-radius: 50%;
 }
 .adress {
   font-family: "rubik","sans-serif";
@@ -457,6 +537,8 @@ footer {
 .main-inner {
   background-color: #F0F0F0;
   color: #000000;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .inner-header {
   background-color: #FFFFFF;
@@ -605,4 +687,39 @@ footer {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/* сетки Каталога*/
+.monopods-for-selfi {
+  margin: 0;
+}
+.main-inner {
+  background-color:#F0F0F0
+  width:1440px;
+  margin:0 auto;
+}
+.inner-header {
+  width: 541px;
+  height: 86px;
+  margin: 35px 699px 34px 200px;
+}
+.breadcrumbs {
+  margin-right: 112px;
+  display: flex;
+  justify-content: space-between;
+}
+.breadcrumbs-item-button {
+  padding: 0;
+}
+.catalog-products {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+}
+.catalog-container {
+
+}
+.filter-container {
+  margin-left: 200px;
+  width: 220px;
 }

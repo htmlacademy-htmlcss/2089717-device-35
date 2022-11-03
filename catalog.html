@@ -8,10 +8,11 @@
   </head>
 
   <body>
-    <header class="main-header">
+    <header class="main-catalog-header">
       <h1 class="visually-hidden">device</h1>
       <img class="main-logo" src="../2089717-device-35/images/main-logo-black.svg" alt="Логотип Девайса" width="145"
-        height="36">
+    height="36">
+    <div class="navigation-top">
       <nav class="main-navigation">
         <form class="navigation-search-form" action="https://echo.htmlacademy.ru/" method="get">
           <input type="search" name="search" placeholder="Поиск по сайту">
@@ -20,37 +21,42 @@
         <ul class="user-navigation">
           <li><img class="user-image" src="../2089717-device-35/images/navigation/user.svg" alt="Человечек для входа"
               width="13" height="12">
-            <a class="user-navigation-item" href="#">Войти</a>
+            <a class="user-navigation-item user-navigation-item-entare" href="#">Войти</a>
           </li>
           <li><img class="compare-image" src="../2089717-device-35/images/navigation/compare.svg"
-              alt="прямоугольная диаграммка" width="10" height="12"><a class="user-navigation-item"
+              alt="прямоугольная диаграммка" width="10" height="12"><a class="user-navigation-item user-navigation-item-compare"
               href="#">Сравнить</a>
           </li>
           <li> <img class="basket-image" src="../2089717-device-35/images/navigation/basket.svg" alt="Корзина"
               width="16" height="14">
-            <a class="user-navigation-item" href="#">Корзина</a>
+            <a class="user-navigation-item user-navigation-item-basket" href="#">Корзина</a>
           </li>
         </ul>
+      </div>
+      <div class="navigation-bottom">
+        <button class="site-navigation-item-button">Каталог товаров</button>
         <ul class="site-navigation">
-          <li><button class="site-navigation-item-button">Каталог товаров</button></li>
-          <li><a class="site-navigation-item" href="#">Доставка</a></li>
-          <li><a class="site-navigation-item" href="#">Гарантия</a></li>
-          <li><a class="site-navigation-item" href="#">Контакты</a></li>
-
+          <li><a class="site-navigation-item site-navigation-item-not-last" href="#">Доставка</a></li>
+          <li><a class="site-navigation-item site-navigation-item-not-last" href="#">Гарантия</a></li>
+          <li><a class="site-navigation-item site-navigation-item-last" href="#">Контакты</a></li>
         </ul>
+      </div>
       </nav>
     </header>
     <main class="main-inner">
       <header class="inner-header">
-        <h2>Моноподы для селфи</h2>
+        <h2 class="monopods-for-selfi">Моноподы для селфи</h2>
         <ul class="breadcrumbs">
           <li><a class="breadcrumbs-item" href="index.html">Главная</a></li>
-          <li><button class="breadcrumbs-item-button">Каталог товаров</button></li>
+          <li><button class="breadcrumbs-item breadcrumbs-item-button">Каталог товаров</button></li>
           <li><a class="breadcrumbs-item">Моноподы для селфи</a></li>
         </ul>
       </header>
 
+
+      <div class="main-content container">
       <section class="catalog-products">
+        <div class="filter-container">
         <h3 class="filter-header">Фильтр:</h3>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
@@ -109,6 +115,10 @@
           </fieldset>
           <button class="filter-activation-button" type="submit">Показать</button>
         </form>
+      </div>
+
+
+        <div class="catalog-container">
         <div class="sorting">
           <h3 class="sorting-header">Сортировка:</h3>
           <select class="select-control">
@@ -118,8 +128,8 @@
           </select>
           <img class="arrow" src="../2089717-device-35/images/arrow.svg" alt="стрелочка вниз" width="9.03"
             height="6.05">
-          <button class="slider-button">Листать вверх</button>
-          <button class="slider-button">Листать вниз</button>
+          <div class="slider-button-top-container"><button class="slider-button slider-button-top">Листать вверх</button></div>
+          <div class="slider-button-down-container"><button class="slider-button slider-button-down">Листать вниз</button></div>
         </div>
         <div class="product-list-container">
         <ul class="product-list">
@@ -183,14 +193,18 @@
           </li>
         </ul>
         </div>
+      </div>
       </section>
+    </div>
     </main>
     <footer>
+
       <div class="footer-container">
       <h1 class="visually-hidden">device</h1>
-      <div class="adress-container">
       <img class="main-logo-yellow" src="../2089717-device-35/images/main-logo-yellow.svg" alt="Логотип Девайса"
         width="145" height="36">
+        <diV class="footer-top">
+        <div class="adress-container">
       <p class="adress" >Санкт-Петербург, набережная<br>
         реки Карповки, 5, литера П.</p>
       </div>
@@ -202,19 +216,23 @@
       </ul>
       </div>
       <p class="telephone-number">Тел.: +7 (812) 812-12-12</p>
+      </div>
+
+      <div class="footer-bottom">
+      <div class="yellow-rectangle"></div>
       <div class="social-network-list-container">
       <ul class="social-network-list">
-        <li><a class="social-network-item" href="https://t.me/htmlacademy">
+        <li class="social-network-item"><a class="social-network-item-link" href="https://t.me/htmlacademy">
             <img class="social-network-image" src="../2089717-device-35/images/social-networks/telegram.svg"
               alt="Ссылка на наш телеграм" width="13.34" height="11.19">
             <h3 class="visually-hidden">Telegram</h3>
           </a></li>
-        <li><a class="social-network-item" href="https://www.youtube.com/user/htmlacademyru">
+        <li class="social-network-item"><a class="social-network-item-link" href="https://www.youtube.com/user/htmlacademyru">
             <img class="social-network-image" src="../2089717-device-35/images/social-networks/youtube.svg"
               alt="Ссылка на наш ютуб" width="16" height="10.67">
             <h3 class="visually-hidden">Youtube</h3>
           </a></li>
-        <li><a class="social-network-item" href="https://twitter.com/htmlacademy_ru">
+        <li class="social-network-item"><a class="social-network-item-link" href="https://twitter.com/htmlacademy_ru">
             <img class="social-network-image" src="../2089717-device-35/images/social-networks/twitter.svg"
               alt="Ссылка на наш твиттер" width="15" height="14.06">
             <h3 class="visually-hidden">Twitter</h3>
@@ -223,7 +241,9 @@
       </div>
       <a class="site-developer" href="https://htmlacademy.ru/"><img class="htmlacademy-logo"
           src="../2089717-device-35/images/htmlacademy.svg" alt="Логотип htmlacademy" width="114.9" height="32.9"></a>
+        </div>
       </div>
+
     </footer>
   </body>
 

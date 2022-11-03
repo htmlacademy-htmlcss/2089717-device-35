@@ -13,6 +13,7 @@
       <h1 class="visually-hidden">device</h1>
       <img class="main-logo" src="../2089717-device-35/images/main-logo-black.svg" alt="Логотип Девайса" width="145"
     height="36">
+    <div class="navigation-top">
       <nav class="main-navigation">
         <form class="navigation-search-form" action="https://echo.htmlacademy.ru/" method="get">
           <input type="search" name="search" placeholder="Поиск по сайту">
@@ -21,23 +22,26 @@
         <ul class="user-navigation">
           <li><img class="user-image" src="../2089717-device-35/images/navigation/user.svg" alt="Человечек для входа"
               width="13" height="12">
-            <a class="user-navigation-item" href="#">Войти</a>
+            <a class="user-navigation-item user-navigation-item-entare" href="#">Войти</a>
           </li>
           <li><img class="compare-image" src="../2089717-device-35/images/navigation/compare.svg"
-              alt="прямоугольная диаграммка" width="10" height="12"><a class="user-navigation-item"
+              alt="прямоугольная диаграммка" width="10" height="12"><a class="user-navigation-item user-navigation-item-compare"
               href="#">Сравнить</a>
           </li>
           <li> <img class="basket-image" src="../2089717-device-35/images/navigation/basket.svg" alt="Корзина"
               width="16" height="14">
-            <a class="user-navigation-item" href="#">Корзина</a>
+            <a class="user-navigation-item user-navigation-item-basket" href="#">Корзина</a>
           </li>
         </ul>
+      </div>
+      <div class="navigation-bottom">
         <button class="site-navigation-item-button">Каталог товаров</button>
         <ul class="site-navigation">
-          <li><a class="site-navigation-item" href="#">Доставка</a></li>
-          <li><a class="site-navigation-item" href="#">Гарантия</a></li>
-          <li><a class="site-navigation-item" href="#">Контакты</a></li>
+          <li><a class="site-navigation-item site-navigation-item-not-last" href="#">Доставка</a></li>
+          <li><a class="site-navigation-item site-navigation-item-not-last" href="#">Гарантия</a></li>
+          <li><a class="site-navigation-item site-navigation-item-last" href="#">Контакты</a></li>
         </ul>
+      </div>
       </nav>
       <span class="slider-number">01</span>
     </header>
@@ -200,19 +204,20 @@
       </div>
 
       <div class="footer-bottom">
+      <div class="yellow-rectangle"></div>
       <div class="social-network-list-container">
       <ul class="social-network-list">
-        <li><a class="social-network-item" href="https://t.me/htmlacademy">
+        <li class="social-network-item"><a class="social-network-item-link" href="https://t.me/htmlacademy">
             <img class="social-network-image" src="../2089717-device-35/images/social-networks/telegram.svg"
               alt="Ссылка на наш телеграм" width="13.34" height="11.19">
             <h3 class="visually-hidden">Telegram</h3>
           </a></li>
-        <li><a class="social-network-item" href="https://www.youtube.com/user/htmlacademyru">
+        <li class="social-network-item"><a class="social-network-item-link" href="https://www.youtube.com/user/htmlacademyru">
             <img class="social-network-image" src="../2089717-device-35/images/social-networks/youtube.svg"
               alt="Ссылка на наш ютуб" width="16" height="10.67">
             <h3 class="visually-hidden">Youtube</h3>
           </a></li>
-        <li><a class="social-network-item" href="https://twitter.com/htmlacademy_ru">
+        <li class="social-network-item"><a class="social-network-item-link" href="https://twitter.com/htmlacademy_ru">
             <img class="social-network-image" src="../2089717-device-35/images/social-networks/twitter.svg"
               alt="Ссылка на наш твиттер" width="15" height="14.06">
             <h3 class="visually-hidden">Twitter</h3>
