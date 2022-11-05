@@ -37,6 +37,11 @@ font-display: swap;
     text-align: left;
     margin: 0 auto;
   }
+  .container {
+    width: auto;
+    height: auto;
+    background-color: #E5E5E5;
+  }
   .main-navigation {
     display: flex;
     justify-content: space-between;
@@ -536,7 +541,7 @@ footer {
 
 .main-inner {
   color: #000000;
-  max-width: 1440px;
+  width: auto;
   margin: 0 auto;
 }
 .inner-header {
