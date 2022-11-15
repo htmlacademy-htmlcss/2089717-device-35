@@ -799,6 +799,9 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
 }
+.sorting-header {
+  margin-left: 40px;
+}
 .catalog-filter-title,
 .product-item-link {
   font-family: "rubik","sans-serif";
@@ -839,11 +842,13 @@ footer {
   border: none;
   background-color: #F0F0F0;
 }
-.product-list-container {
-  background-color: #FFFFFF;
+.product-item-and-cost-container {
+  display: flex;
+  margin-top: 24px;
+  max-width: 360px;
 }
 .product-list-title {
-
+  margin: 0;
 }
 .product-item-price {
   font-family: "rubik","sans-serif";
@@ -852,6 +857,7 @@ footer {
   line-height: 21px;
   font-weight: 400;
   text-align: right;
+  margin-left: auto;
 }
 .pagination-download-more {
   font-family: "raleway","sans-serif";
@@ -949,17 +955,20 @@ footer {
   justify-content: space-between;
   margin-left: auto;
 }
+
 .product-list {
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   padding-top: 70px;
+  margin-left: 40px;
+  display: grid;
+  grid-template-columns:repeat(2, 360px);
+  grid-column-gap:40px;
+  grid-row-gap:44px;
 
 }
 .product-list-container {
-  margin-left: 60px;
+  margin-left: 84px;
   height: 1310px;
+  background-color: #FFFFFF;
 }
 .pagination-container {
   background-color: #EBEBEB;
